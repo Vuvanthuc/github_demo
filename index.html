@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="float float-2 content"  >2</div>  
+        <div class="float float-3 content" id="content-image" >
+             <form action="" method="GET" id="form">
+                 <div class="row">
+                     <div class="col-25">
+                         <label for="fname">First name</label>
+                     </div>
+                     <div class="col-75">
+                        <input type="text" name="first-name" placeholder="Your first name..">
+                     </div>             
+                 </div>
+                 <div class="row">
+                     <div class="col-25">
+                        <label for="lname">Last name</label>
+                     </div>
+                     <div class="col-75">
+                        <input type="text" name="last-name" placeholder="Your last name..">
+                     </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-25">
+                        <label for="BDay">Ngày sinh</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="BirthDay" placeholder="dd/mm/yyyy" pattern="[0-24]{2}/[0-12]{2}/[0-2019]{4}">
+                    </div>
+                 </div>     
+                 <div class="row">
+                     <div class="col-25">
+                        <label for="gder">Giới tính</label>
+                     </div>
+                     <div class="col-75">
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Male">Male
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-25">
+                         <label for="email">Email</label>
+                     </div>
+                     <div class="col-75">
+                         <input type="email" name="email" placeholder="Your email">
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-25">
+                         <label for="Yoursefl">Giới thiệu</label>
+                     </div>
+                     <div class="col-75">
+                        <textarea name="yoursefl" cols="20" rows="4" placeholder="Write something...."></textarea>
+                     </div>
+                 </div>
+                 
+                 
+
+            </form>
+        </div> 
+        <div class="clear-float"></div>
+        <div class="float float-4" > </div>
+        <div class="float float-5">5</div>
+        <div class="clear-float"></div>
+        <div class="float float-6">footer</div>
+    </div>
+    
+</body>
+</html>
